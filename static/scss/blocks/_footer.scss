@@ -1,0 +1,32 @@
+.footer {
+  background-color: $footer-bg;
+
+  padding: 26px 5px;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  flex-wrap: wrap;
+
+  & h6 {
+    flex-basis: 300px;
+
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  & a {
+    color: $white;
+
+    margin-right: 20px;
+
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  & a:hover {
+    text-decoration: none;
+  }
+}

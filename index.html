@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/main.css" />
+    <!-- js -->
+    <script
+      src="https://kit.fontawesome.com/0cf01946b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- title -->
+    <title>Silen: People Search</title>
+  </head>
+  <body>
+    <!-- Aside -->
+    <aside class="aside">
+      <div class="aside__buttons">
+        <button class="music__change">
+          <img
+            class="aside__audio-hook paused"
+            src="assets/img/sound.gif"
+            alt="music ico"
+          />
+          <audio class="audio" src="assets/music/ambient.mp3" loop></audio>
+        </button>
+
+        <button class="theme__change"></button>
+        <button class="lang__change">RU</button>
+      </div>
+      <p>Page Settings</p>
+    </aside>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <a href="#intro" class="header__home-link">
+              <img src="assets/img/logo_silen.svg" alt="logo" />
+            </a>
+
+            <a href="#intro" class="header__search-link">/ Search People</a>
+          </div>
+
+          <div class="burger__wrapper">
+            <div class="burger">
+              <span></span>
+            </div>
+          </div>
+
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__item">
+                <a href="#!" class="header__link">Apply</a>
+              </li>
+
+              <li class="header__item header__hook">
+                <a href="#!" class="header__link">Region</a>
+                <ul class="header__sub-menu">
+                  <div class="header__sub-menu_wrapper">
+                    <li class="header__sub-item">
+                      <a href="#!" class="header__sub-link">Moscow</a>
+                    </li>
+
+                    <li class="header__sub-item">
+                      <a href="#!" class="header__sub-link">Saint Petersburg</a>
+                    </li>
+
+                    <li class="header__sub-item">
+                      <a href="#!" class="header__sub-link">Rostov-on-don</a>
+                    </li>
+
+                    <li class="header__sub-item">
+                      <a href="#!" class="header__sub-link">Novosibirsk</a>
+                    </li>
+
+                    <li class="header__sub-item">
+                      <a href="#!" class="header__sub-link">Muhosransk</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Intro -->
+    <section id="intro" class="intro">
+      <div class="container">
+        <div class="intro__wrapper">
+          <h1>Silen - people search <span>department</span></h1>
+
+          <div class="intro__elements">
+            <a href="#about_us" class="intro__link">More About Us</a>
+
+            <form action="" class="search">
+              <input
+                type="text"
+                placeholder="Please write full name"
+                required
+              />
+              <button type="submit"></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main -->
+    <main class="main">
+      <section id="about_us" class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <figure class="about__img">
+              <img
+                loading="lazy"
+                src="assets/img/anime-girl.jpg"
+                alt="Girl programmer writes code and drinks coffee"
+                title="Нажмите чтобы увидеть картинку(кинню мапэ)"
+              />
+
+              <figcaption>
+                <a target="_blank" href="assets/img/anime-girl.jpg"
+                  >View Image
+                </a>
+              </figcaption>
+            </figure>
+
+            <div class="about__intro">
+              <h2>About Us</h2>
+              <p>
+                The search for "lost" people has become one of the main tasks of
+                the non-profit organization Silen in 2023. This is due to
+                various events that took place at that time. You can read about
+                them and other types of blogging in our article. Link below
+              </p>
+              <a href="#!">More about Silen</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <h6>Silen - © Copyright</h6>
+          <a href="#!">Use Policy</a>
+          <a href="#!">Use Privacy</a>
+        </div>
+      </div>
+    </footer>
+    <!-- js -->
+    <script src="static/js/script.js"></script>
+  </body>
+</html>

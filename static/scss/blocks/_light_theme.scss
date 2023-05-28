@@ -1,0 +1,50 @@
+body.light_theme {
+  background-color: #b6adc05d;
+  .intro {
+    height: 100vh;
+
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../../assets/img/bg.png) no-repeat center center;
+    background-size: cover;
+  }
+
+  .header {
+    border-bottom: 2px solid $body-bg;
+  }
+
+  .intro__wrapper {
+    h1 {
+      & span {
+        text-decoration-color: $body-bg;
+      }
+    }
+    .intro__elements {
+      & .intro__link {
+        border: 2px solid $body-bg;
+      }
+    }
+  }
+
+  .about__intro {
+    & {
+      color: $body-bg;
+    }
+  }
+
+  .aside {
+    color: $body-bg;
+  }
+
+  .footer {
+    background-color: $white;
+    color: $body-bg;
+  }
+
+  .footer__wrapper a {
+    color: $body-bg;
+  }
+}
